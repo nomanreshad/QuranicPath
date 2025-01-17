@@ -13,11 +13,14 @@ This works both online and offline. If you wanna read surah offline then you nee
 |--------------------------------|--------------------------------|--------------------------------|--------------------------------|
 | ![Image1](readme_images/1.png) | ![Image2](readme_images/2.png) | ![Image3](readme_images/3.png) | ![Image4](readme_images/4.png) |
 
-![image](readme_images/5.png) ![image](readme_images/6.png) ![image](readme_images/7.png) ![image](readme_images/8.png)
+| Screenshot 5                   | Screenshot 6                   | Screenshot 7                   | Screenshot 8                   |
+|--------------------------------|--------------------------------|--------------------------------|--------------------------------|
+| ![Image5](readme_images/5.png) | ![Image6](readme_images/6.png) | ![Image7](readme_images/7.png) | ![Image8](readme_images/8.png) |
 
 
 ## Architecture
 This app follows the MVI(Model-View-Intent) architecture design pattern.
+
 
 ## Data Source
 All data comes from the Quran API
