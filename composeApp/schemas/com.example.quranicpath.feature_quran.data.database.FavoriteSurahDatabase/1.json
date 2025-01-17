@@ -1,0 +1,67 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "8b8c5b8fa98ac594091d7707cb581f23",
+    "entities": [
+      {
+        "tableName": "SurahEntity",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`surahNumber` INTEGER NOT NULL, `name` TEXT NOT NULL, `englishName` TEXT NOT NULL, `englishNameTranslation` TEXT NOT NULL, `numberOfAyahs` INTEGER NOT NULL, `revelationType` TEXT NOT NULL, `ayahs` TEXT NOT NULL, PRIMARY KEY(`surahNumber`))",
+        "fields": [
+          {
+            "fieldPath": "surahNumber",
+            "columnName": "surahNumber",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "englishName",
+            "columnName": "englishName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "englishNameTranslation",
+            "columnName": "englishNameTranslation",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "numberOfAyahs",
+            "columnName": "numberOfAyahs",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "revelationType",
+            "columnName": "revelationType",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ayahs",
+            "columnName": "ayahs",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "surahNumber"
+          ]
+        }
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '8b8c5b8fa98ac594091d7707cb581f23')"
+    ]
+  }
+}
