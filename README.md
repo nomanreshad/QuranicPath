@@ -5,7 +5,7 @@ This is a Kotlin Multiplatform project targeting Android, iOS, Desktop.
 
 ## Features
 Quranic Path is an app intended to help people to read Quran online or offline on their phone. The app allows you to read all surahs, search a specific surah or ayah by surah or ayah number. You can read Quran for free here!
-This works both online and offline. If you wanna read surah offline then you need to add that surah in favorite
+This works both online and offline. If you wanna read surah offline then you need to add that surah in favorite.
 
 
 ## Screenshots
