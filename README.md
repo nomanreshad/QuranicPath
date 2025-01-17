@@ -23,8 +23,7 @@ This app follows the MVI(Model-View-Intent) architecture design pattern.
 
 
 ## Data Source
-All data comes from the Quran API
-https://alquran.cloud/api
+All data comes from the Quran API: https://alquran.cloud/api
 
 
 ## Set up the environment
