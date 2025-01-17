@@ -9,14 +9,10 @@ This works both online and offline. If you wanna read surah offline then you nee
 
 
 ## Screenshots
-![image](readme_images/1.png)
-![image](readme_images/2.png)
-![image](readme_images/3.png)
-![image](readme_images/4.png)
-![image](readme_images/5.png)
-![image](readme_images/6.png)
-![image](readme_images/7.png)
-![image](readme_images/8.png)
+![image](readme_images/1.png) ![image](readme_images/2.png) ![image](readme_images/3.png) ![image](readme_images/4.png)
+
+
+![image](readme_images/5.png) ![image](readme_images/6.png) ![image](readme_images/7.png) ![image](readme_images/8.png)
 
 
 ## Architecture
